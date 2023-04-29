@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- NAV bar -->
+    <header>
+        <p ><a>Header</a></p>
+        <ul class="nav-container" style="list-style-type: none;">
+            <li>
+                <a href="index.html" style="color:white; text-decoration: none;">
+                    <p>Signup</p>
+                </a>
+            </li>
+            <li>
+                <a href="profile.html" style="color:white; text-decoration: none;">
+                    <p>Profile</p>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <p class="heading">Signup</p>
+        <div id="signup-form">
+            <div>
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+            </div>
+            <div>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+            </div>
+            <div>
+                <p id="signup-msg"></p>
+            </div>
+            <button id="signup-btn">Signup</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
